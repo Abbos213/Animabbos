@@ -1,46 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animabbos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="images/logo.svg" />
+  </head>
+  <body>
     <header>
-        <div class="shd">
+      <div class="shd">
         <div class="container">
-            <div class="navbar">
-                <a href="#" class="logo">
-                    <div class="logo1">Anima</div>
-                    <div class="logo2">Boss</div>
+          <div class="navbar">
+            <a href="#" class="logo">
+              <div class="logo1">Anima</div>
+              <div class="logo2">Boss</div>
+            </a>
+            <ul class="header_list">
+              <li class="header_list-item"><a href="#">Home</a></li>
+              <li class="header_list-item"><a href="#">New</a></li>
+              <li class="header_list-item"><a href="#">Genres</a></li>
+              <li class="header_list-item"><a href="#">Movies</a></li>
+              <li class="header_list-item"><a href="#">TV Series</a></li>
+              <li class="header_list-item">
+                <a href="#"><img src="images/search.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="banner">
+            <div class="banner_info">
+              <div class="banner_info_title">
+                Kimetsu no Yaiba : Infinity Castle
+              </div>
+              <div class="banner_info_meta">
+                <img
+                  class="banner_info_meta_img"
+                  src="images/imdb.svg"
+                  alt="IMDb" />
+                <div class="banner_info_meta_text">
+                  8.2 | 2021 year | 1 hour 55 minutes | Movies
+                </div>
+              </div>
+              <div class="banner_info_text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti harum soluta, voluptatum nisi eveniet quia quo corporis
+                ipsa maiores sed inventore sint nesciunt quaerat neque alias
+                quod delectus suscipit officia...
+                <span class="banner_info_text_more">See more</span>
+              </div>
+              <div class="banner_info_btns">
+                <a href="#" class="banner_info_trailerBtn">Watch trailer</a>
+                <a href="#" class="banner_info_watchBtn">
+                  <img src="images/play.svg" alt="" />
+                  Watch now
                 </a>
-                <ul class="header_list">
-                    <li class="header_list-item"><a href="#">Home</a></li>
-                    <li class="header_list-item"><a href="#">New</a></li>
-                    <li class="header_list-item"><a href="#">Genres</a></li>
-                    <li class="header_list-item"><a href="#">Movies</a></li>
-                    <li class="header_list-item"><a href="#">TV Series</a></li>
-                    <li class="header_list-item"><a href="#"><img src="./images/search.svg" alt=""></a></li>
-                </ul>
+              </div>
             </div>
+            <div class="banner_sliderBtns">
+              <button class="banner_backBtn">
+                <img src="images/back.svg" alt="Back" />
+              </button>
+              <button class="banner_nextBtn">
+                <img src="images/next.svg" alt="Next" />
+              </button>
+            </div>
+          </div>
         </div>
-        </div>
+        <div class="slider" id="slider"></div>
+      </div>
     </header>
 
+    <div class="container">
+      <div class="upcoming">
+        <div class="upcoming_title">Upcoming</div>
+        <div class="upcoming_card_wrap">
+          <div class="upcoming_card">
+            <img class="upcoming_card_img" src="covers/frieren2.png" alt="" />
+            <div class="upcoming_card_info">
+              <div class="upcoming_card_info_title">Sousou no Frieren</div>
+              <div class="upcoming_card_info_meta">
+                <div class="upcoming_card_info_meta_text">Advanture</div>
+                <div class="upcoming_card_info_meta_text">Action</div>
+                <div class="upcoming_card_info_meta_text">Animation</div>
+              </div>
+              <div class="upcoming_card_info_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                animi voluptate maiores modi quod voluptatum rerum doloremque
+                magni sed ex.
+              </div>
+            </div>
+          </div>
+          <div class="upcoming_card">
+            <img class="upcoming_card_img" src="covers/jujutsu2.png" alt="" />
+            <div class="upcoming_card_info">
+              <div class="upcoming_card_info_title">
+                Jujutsu Kaisen: Shimetsu Kaiyuu
+              </div>
+              <div class="upcoming_card_info_meta">
+                <div class="upcoming_card_info_meta_text">Supernatural</div>
+                <div class="upcoming_card_info_meta_text">Action</div>
+                <div class="upcoming_card_info_meta_text">Animation</div>
+              </div>
+              <div class="upcoming_card_info_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                animi voluptate maiores modi quod voluptatum rerum doloremque
+                magni sed ex.
+              </div>
+            </div>
+          </div>
+          <div class="upcoming_card">
+            <img class="upcoming_card_img" src="covers/jigoraku.png" alt="" />
+            <div class="upcoming_card_info">
+              <div class="upcoming_card_info_title">Jigokuraku</div>
+              <div class="upcoming_card_info_meta">
+                <div class="upcoming_card_info_meta_text">Advanture</div>
+                <div class="upcoming_card_info_meta_text">Action</div>
+                <div class="upcoming_card_info_meta_text">Animation</div>
+              </div>
+              <div class="upcoming_card_info_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                animi voluptate maiores modi quod voluptatum rerum doloremque
+                magni sed ex.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
+    <footer>
+      <div class="container">
+        <div class="footer_wrap">
+          <div class="footer_wrap_info">
+            <a href="#" class="logo">
+              <div class="logo1">Anima</div>
+              <div class="logo2">Boss</div>
+            </a>
+            <div class="footer_info">
+              <div class="footer_info_title">Learn More</div>
+              <ul class="footer_info_list">
+                <li>
+                  <a class="footer_info_list_item" href="#">About us</a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">New Releases</a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_info">
+              <div class="footer_info_title">Tickets & Booking</div>
+              <ul class="footer_info_list">
+                <li>
+                  <a class="footer_info_list_item" href="#">Theatres</a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">Available Movies</a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">VIP Pass</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_info">
+              <div class="footer_info_title">Contact Us</div>
+              <ul class="footer_info_list">
+                <li>
+                  <a class="footer_info_list_item" href="#"
+                    >Ticket Reservation: <span>123-456-7890</span></a
+                  >
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#"
+                    >Ticket Office:
+                    <span>123-456-7890</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_info">
+              <div class="footer_info_title">Socials</div>
+              <ul class="footer_info_socials">
+                <li>
+                  <a class="footer_info_list_item" href="#">
+                    <img src="images/facebook.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">
+                    <img src="images/instagram.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">
+                    <img src="images/twitter.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a class="footer_info_list_item" href="#">
+                    <img src="images/youtube.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_wrap_rights">
+            © 2026 Animabbos | All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
