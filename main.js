@@ -85,6 +85,20 @@ cards.forEach((card) => {
   slider.appendChild(cardEl);
 });
 
+function updateBannerInfo(cardID) {
+  bannerInfoTitle.classList.add("fade-out");
+  bannerInfoMetaText.classList.add("fade-out");
+
+  setTimeout(() => {
+    bannerInfoTitle.textContent = cards[cardID].title;
+    bannerInfoMetaText.textContent = cards[cardID].meta;
+
+    bannerInfoTitle.classList.remove("fade-out");
+    bannerInfoMetaText.classList.remove("fade-out");
+  }, 300);
+}
+
+
 function activateCard(card) {
   const cardID = Number(card.dataset.id) - 1;
   const cardBg = card.querySelector(".slider_card_bg");
@@ -106,8 +120,8 @@ function activateCard(card) {
   header.style.backgroundRepeat = "no-repeat";
   header.style.backgroundPosition = "center";
   header.style.backgroundSize = "cover";
-  bannerInfoTitle.textContent = cards[cardID].title;
-  bannerInfoMetaText.textContent = cards[cardID].meta;
+  updateBannerInfo(cardID);
+
 
   activeCard = card;
   currentIndex = cardID;
@@ -163,3 +177,4 @@ prevBtn.addEventListener("click", () => {
   prevCard();
   resetInterval();
 });
+
