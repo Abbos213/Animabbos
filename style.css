@@ -248,122 +248,122 @@ header {
   border-radius: 12px;
 }
 
-.upcoming{
+.upcoming {
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding: 40px 0 40px;
 }
 
-.upcoming_title{
+.upcoming_title {
   align-self: flex-start;
   font-size: 24px;
   font-weight: 500;
   color: #fff;
-  border-bottom: 1px solid #38D0FA;
+  border-bottom: 1px solid #38d0fa;
   padding-bottom: 5px;
 }
 
-.upcoming_card_wrap{
+.upcoming_card_wrap {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-.upcoming_card{
+.upcoming_card {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.upcoming_card_img{
+.upcoming_card_img {
   width: 176px;
   height: 242px;
 }
 
-.upcoming_card_info{
+.upcoming_card_info {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
 
-.upcoming_card_info_title{
+.upcoming_card_info_title {
   font-size: 29px;
   font-weight: 500;
   color: #fff;
 }
 
-.upcoming_card_info_meta{
+.upcoming_card_info_meta {
   display: flex;
   gap: 10px;
 }
 
-.upcoming_card_info_meta_text{
+.upcoming_card_info_meta_text {
   padding: 10px;
-  border: 2px solid #38D0FA;
+  border: 2px solid #38d0fa;
   border-radius: 25px;
   color: #fff;
   font-size: 14px;
 }
 
-.upcoming_card_info_text{
+.upcoming_card_info_text {
   max-width: 250px;
   width: 100%;
   font-size: 13px;
   color: #d0d0d0;
 }
 
-footer{
+footer {
   background: #000;
   padding-top: 60px;
 }
 
-.footer_wrap{
+.footer_wrap {
   display: flex;
   flex-direction: column;
   gap: 70px;
 }
 
-.footer_wrap_info{
+.footer_wrap_info {
   display: flex;
   justify-content: space-between;
 }
 
-.footer_info{
+.footer_info {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.footer_info_title{
+.footer_info_title {
   font-size: 18px;
   font-weight: 500;
   color: #fff;
 }
 
-.footer_info_list{
+.footer_info_list {
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
 
-.footer_info_socials{
+.footer_info_socials {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.footer_info_list_item{
+.footer_info_list_item {
   font-size: 14px;
   color: #ffffffb5;
 }
 
-.footer_info_list_item span{
+.footer_info_list_item span {
   font-weight: 500;
   color: #dedede;
 }
 
-.footer_wrap_rights{
+.footer_wrap_rights {
   font-size: 14px;
   color: #ffffffb5;
   padding: 30px 0 40px;

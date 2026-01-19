@@ -78,81 +78,81 @@ button {
   padding: 7px 0;
 }
 
-.cards{
-    max-width: 826px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 15px;
-    background: #181818;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    border-radius: 15px;
-    margin-top: 40px;
+.cards {
+  max-width: 826px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  background: #181818;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-radius: 15px;
+  margin-top: 40px;
 }
 
-.card{
-    width: 187.75px;
-    height: auto;
+.card {
+  width: 187.75px;
+  height: auto;
 }
 
-.card img{
-    width: 187.75px;
-    height: 269.02px;
-    border-radius: 10px;
+.card img {
+  width: 187.75px;
+  height: 269.02px;
+  border-radius: 10px;
 }
 
-.card p{
-    font-size: 18px;
-    color: white;
+.card p {
+  font-size: 18px;
+  color: white;
 }
 /* ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
 
-.body{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+.body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.genres_card{
-    max-width: 354px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background: #181818;
-    display: inline;
-    flex-wrap: wrap;
-    gap: 15px;
-    border-radius: 15px;
-    margin-top: 40px;
+.genres_card {
+  max-width: 354px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #181818;
+  display: inline;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-radius: 15px;
+  margin-top: 40px;
 }
 
-.genres_title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #7F7F7F;
-    padding: 11px 16px;
+.genres_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #7f7f7f;
+  padding: 11px 16px;
 }
 
-.genres_title p{
-    font-size: 18px;
-    color: #FFF;
+.genres_title p {
+  font-size: 18px;
+  color: #fff;
 }
 
-#clearGenres{
-    font-size: 18px;
-    color: #FFF;
+#clearGenres {
+  font-size: 18px;
+  color: #fff;
 }
 
-.genres{
-    display: inline-block;
-    padding-bottom: 11px;
-    padding-left: 16px;
-    padding-right: 16px;
+.genres {
+  display: inline-block;
+  padding-bottom: 11px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .genres_checkbox {
@@ -162,9 +162,9 @@ button {
   margin-top: 10px;
 }
 
-.genres_checkbox p{
-    font-size: 15px;
-    color: #dedede;
+.genres_checkbox p {
+  font-size: 15px;
+  color: #dedede;
 }
 
 .box {
@@ -197,22 +197,21 @@ button {
   color: #fff;
 }
 
-.genres_btn{
-    width: 324px;
-    height: 30px;
-    background-color: #38d0fa;
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+.genres_btn {
+  width: 324px;
+  height: 30px;
+  background-color: #38d0fa;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
-.genres_btn p{
-    font-size: 18px;
-    color: #000;
-    font-weight: bolder;
+.genres_btn p {
+  font-size: 18px;
+  color: #000;
+  font-weight: bolder;
 }
-

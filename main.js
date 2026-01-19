@@ -128,7 +128,7 @@ slider.addEventListener("click", (e) => {
   const card = e.target.closest(".slider_card");
   if (!card) return;
   activateCard(card);
-  resetInterval()
+  resetInterval();
 });
 
 function nextCard() {
@@ -156,10 +156,10 @@ function resetInterval() {
 
 nextBtn.addEventListener("click", () => {
   nextCard();
-  resetInterval()
+  resetInterval();
 });
 
 prevBtn.addEventListener("click", () => {
   prevCard();
-  resetInterval()
+  resetInterval();
 });

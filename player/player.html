@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animabbos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./player.css" />
+    <link rel="icon" href="../images/logo.svg" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <a href="../index.html" class="logo">
+          <div class="logo1">Anima</div>
+          <div class="logo2">Boss</div>
+        </a>
+        <ul class="header_list">
+          <li class="header_list-item"><a href="../index.html">Home</a></li>
+          <li class="header_list-item"><a href="#">New</a></li>
+          <li class="header_list-item"><a href="#">Genres</a></li>
+          <li class="header_list-item">
+            <a href="../movies/movies.html">Movies</a>
+          </li>
+          <li class="header_list-item"><a href="#">TV Series</a></li>
+          <li class="header_list-item">
+            <a href="#"><img src="../images/search.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="player_wrap">
+        <div class="player_info">
+          <img src="../covers/jujutsu.jpg" alt="" class="player_info_img" />
+          <div class="player_info_box">
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Type</div>
+              <div class="player_info_box_text_type">TV Series</div>
+            </div>
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Aired</div>
+              <div class="player_info_box_text_type">April 6, 2019 year</div>
+            </div>
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Duration</div>
+              <div class="player_info_box_text_type">TV Series</div>
+            </div>
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Status</div>
+              <div class="player_info_box_text_type">Finished</div>
+            </div>
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Author</div>
+              <div class="player_info_box_text_type">Koyoharu Gotouge</div>
+            </div>
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Studio</div>
+              <div class="player_info_box_text_type">ufotable</div>
+            </div>
+            <div class="player_info_box_text">
+              <div class="player_info_box_text_small">Alternative title</div>
+              <div class="player_info_box_text_type">呪術廻戦</div>
+            </div>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player_title">
+            <div class="player_title_text">Jujutsu Kaisen</div>
+            <div class="player_title_rating">
+              <img
+                src="../images/star.svg"
+                alt=""
+                class="player_title_rating_img" />
+              <div class="player_title_rating_text">8.5</div>
+            </div>
+          </div>
+          <video class="videoplayer" width="760px" controls>
+            <source src="../videos/ramen.mp4" type="video/mp4" />
+          </video>
+          <div class="player_episodes">
+            <button class="player_episodes_btn active">1 episode</button>
+            <button class="player_episodes_btn">2 episode</button>
+            <button class="player_episodes_btn">3 episode</button>
+            <button class="player_episodes_btn">4 episode</button>
+            <button class="player_episodes_btn">5 episode</button>
+            <!-- <button class="player_episodes_btn">6 episode</button>
+            <button class="player_episodes_btn">7 episode</button>
+            <button class="player_episodes_btn">8 episode</button>
+            <button class="player_episodes_btn">9 episode</button>
+            <button class="player_episodes_btn">10 episode</button>
+            <button class="player_episodes_btn">11 episode</button>
+            <button class="player_episodes_btn">12 episode</button> -->
+          </div>
+        </div>
+        <div class="player_dub">
+          <div class="player_dub_text">Dub</div>
+          <ul class="player_dub_list">
+            <li class="player_dub_list_item active">AniLibria.TV</li>
+            <li class="player_dub_list_item">Studio Band</li>
+            <li class="player_dub_list_item">Crunchyroll</li>
+            <li class="player_dub_list_item">JAM</li>
+            <li class="player_dub_list_item">AniDUB</li>
+            <li class="player_dub_list_item">TVShows</li>
+            <li class="player_dub_list_item">AniBaza</li>
+            <li class="player_dub_list_item">SHIZA Project</li>
+            <li class="player_dub_list_item">DubClub</li>
+            <li class="player_dub_list_item">Animedia</li>
+            <li class="player_dub_list_item">Amazing Dubbing</li>
+            <li class="player_dub_list_item">Слышь, Переозвуч</li>
+            <li class="player_dub_list_item">AniPlague</li>
+            <li class="player_dub_list_item">OnWave</li>
+            <li class="player_dub_list_item">AnimeVost</li>
+            <li class="player_dub_list_item">AniFilm</li>
+            <li class="player_dub_list_item">Haron Media</li>
+            <li class="player_dub_list_item">Subtitles</li>
+            <li class="player_dub_list_item">Original</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
